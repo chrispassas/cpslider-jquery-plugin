@@ -5,7 +5,7 @@ cpslider jQuery Plugin
 
 <pre>
 $("#slider-example").cpSlider({
-  	prevBtnClass : 'slider-left-button',
+  		prevBtnClass : 'slider-left-button',
 		nextBtnClass : 'slider-right-button',
 		easingType : 'linear',
 		duration : 'slow',
