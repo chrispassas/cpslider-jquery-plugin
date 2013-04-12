@@ -1,7 +1,9 @@
 cpslider jQuery Plugin
 ======================
 
-[Demo](http://cpslider.chrispassas.com/)
+
+
+<a href="http://cpslider.chrispassas.com/" target="_blank">Demo</a>
 
 <pre>
 $("#slider-example").cpSlider({
