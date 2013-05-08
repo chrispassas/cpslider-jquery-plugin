@@ -27,18 +27,7 @@
 			var slideMarginLeft = 0;
 			var slideWidth = jQuery(options.sliderSelector+" li:first",this).outerWidth();
 
-			/*Pause Youtube*/
-			function sliderPauseYoutube() {
-				jQuery(".article-youtube-video").each(function(index) {
-					document.getElementById("article-ytplayer-"+index).pauseVideo();
-				});
-			}
-			/*Pause Youtube*/
-
 			function slideToPrevious() {
-				/*Pause Youtube*/
-				sliderPauseYoutube();
-				/*Pause Youtube*/
 				if(options.continuous) {
 					if(currentSlide==0) {
 						ulWidth = ulWidth + ulWidth;
@@ -87,9 +76,6 @@
 			}	//slideToPrevious
 
 			function slideToNext() {
-				/*Pause Youtube*/
-				sliderPauseYoutube();
-				/*Pause Youtube*/
 				if(options.continuous) {
 					if(currentSlide==lastSlideIndex) {
 						ulWidth = ulWidth + ulWidth;
